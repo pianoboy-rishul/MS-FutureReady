@@ -1,0 +1,57 @@
+#h2 
+{
+  font-size: 4em;
+  font-family: Book Antiqua;
+  color: white;
+  text-align: center;
+  animation: example 2s linear infinite;
+}
+@keyframes example 
+{
+  0% 
+  {
+	background: linear-gradient(#009000, black);
+  }
+  100% 
+  {
+	background: linear-gradient(#3CE7D7, black);
+  }
+}
+#p
+{
+	font-family: Broadway;
+	color: white;
+}
+#main
+{
+	text-align: center;
+}
+#print 
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+  font-size: 20px;
+}
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 
+{
+        width: 80px;
+        height: 52px;
+        margin: auto;
+        border: 1px solid black;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+	background-color: yellowgreen;
+}
+#but
+{
+	background-color: black;
+	color: white;
+	box-sizing: border-box;
+	width: 95px;
+	height: 40px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: Courier New;
+	font-size: 20px;
+}
